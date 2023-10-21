@@ -7,7 +7,7 @@ index_name = 'logstash-p-test-0001'
 
 # Authentication credentials
 username = 'elastic'
-password = 'changeme'
+password = 'xxxx'
 
 # Base64 encode the username and password
 credentials = base64.b64encode('{}:{}'.format(username, password).encode('utf-8')).decode('utf-8')
